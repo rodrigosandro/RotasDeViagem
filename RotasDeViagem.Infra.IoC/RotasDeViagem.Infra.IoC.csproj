@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RotasDeViagem.Application\RotasDeViagem.Application.csproj" />
+    <ProjectReference Include="..\RotasDeViagem.Data\RotasDeViagem.Infra.Data.csproj" />
+    <ProjectReference Include="..\RotasDeViagem.Domain\RotasDeViagem.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
